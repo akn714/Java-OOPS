@@ -17,7 +17,7 @@ public class Classes_Objects_and_Constructors{
     }
 }
 
-/* --- Classes, Objects and Constructors --- */
+/* --- Classes, Objects, Constructors and Encapsulation --- */
 class Car{
 
     // variable with static keyword
