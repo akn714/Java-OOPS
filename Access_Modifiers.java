@@ -4,6 +4,7 @@ public class Access_Modifiers{
         // creating object of Account class
         Account a1 = new Account();
         System.out.println(a1.getPassword());
+
     }
 }
 
@@ -33,4 +34,5 @@ class Account{
         System.out.println("this is the name : " + " " + this.name);
         System.out.println("this is the email : " + " " + this.email);
     }
+    
 }

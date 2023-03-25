@@ -10,7 +10,7 @@ public class Polymorphism{
         r1.printInfo(r1.speed);
         r1.printInfo(r1.name);
         r1.printInfo(r1.speed, r1.name);
-
+        
     }
 }
 
@@ -31,4 +31,5 @@ class Robot{
     void printInfo(int speed, String name){
         System.out.println(this.speed + " " + this.name);
     }
+
 }

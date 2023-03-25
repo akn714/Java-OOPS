@@ -15,6 +15,7 @@ public class Inheritence{
 
         // creating object os Child class
         Child cc = new Child();
+
     }
 }
 
@@ -29,10 +30,13 @@ final class FinalClass extends Man{
 
 // base class or parant class
 class Man{
+
     String name;
+
     void man(){
         System.out.println("this is man of Man");
     }
+
     void walking(){
         System.out.println(this.name + " is walking");
     }
@@ -40,24 +44,30 @@ class Man{
 
 // drived(child) class for 'Man' and parant class for 'Student' 
 class Child extends Man{
+
     Child(){
         // the super keyword
         super.man();
     }
+
     void playing(){
         System.out.println(this.name + " is playing");
     }
+
     @Override
     void man(){
         System.out.println("this is man of child");
     }
+
 }
 
 // drived(child) class for 'Child' class
 class Student extends Child{
+
     void studying(){
         System.out.println(this.name + " " + " is studying");
     }
+    
 }
 
 // drived(child) class for 'Man' class
